@@ -18,8 +18,7 @@ noBtn.addEventListener("mouseover", () => {
     const wrapperRect = wrapper.getBoundingClientRect();
     const noBtnRect = noBtn.getBoundingClientRect();
 
-    // Set position to absolute during hover
-    noBtn.style.position = "absolute";
+    
 
     // Calculate max positions to ensure the button stays within the wrapper
     const maxX = wrapperRect.width - noBtnRect.width;
